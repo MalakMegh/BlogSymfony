@@ -19,4 +19,5 @@ Nous avons utilisé les Bundles suivants :
 Nous avons publié notre api (exposant les 5 récents articles) et nous avons consommé l'api de : CHAILLY-DEJESUSMARTINS (Api Externe).
 
 ### Lien de déploiement: 
-
+https://djouad-meghnous-blogg.herokuapp.com/
+Nous avons essayer mais ça n'a pas marcher
