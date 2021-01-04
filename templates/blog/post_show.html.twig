@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+	<div class="text-center">
+		<h2 class="section-heading text-uppercase">
+			Article
+		</h2>
+	</div>
+	<section class="page-section" id="services">
+		<div class="post">
+			<h2>{{ articles.titre }}</h2>
+			<h2 class="section-subheading text-muted">{{articles.slug}}</h2>
+			<h3 class="section-subheading text-muted">publié le
+				{{articles.published | date('d/m/y')}}
+			</h3>
+			<div class="content">
+
+				{{articles.content| raw }}
+			</div>
+		</div>
+	</section>
+{% endblock %}

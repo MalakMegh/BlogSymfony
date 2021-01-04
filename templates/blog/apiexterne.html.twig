@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+	<div class="text-center">
+		<h2 class="section-heading text-uppercase">
+			API Externes de Blog de : Chailly-Dejesusmartins
+		</h2>
+	</div>
+	<div class="container">
+		{% for article in articles|slice(0, 9) %}
+			<div class="posts">
+				<div class="article">
+					<h2>{{article.title}}</h2>
+					<div class="metadata">
+						publié le
+						{{article.published | date('d/m/y')}}
+					</div>
+					<div class="content">
+						<p class="text-muted">
+							{{article.content| raw }}
+						</p>
+
+					</div>
+
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+
+{% endblock %}
