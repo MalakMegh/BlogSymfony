@@ -53,7 +53,7 @@ class BlogController extends AbstractController
             //$article->setPublished(new \DateTime());
             $manager->persist($article);
             $manager->flush();
-            // return $this->redirectToRoute('post_show', ['id' => $article->getId()]);
+             return $this->redirectToRoute('blog_show', ['id' => $article->getId()]);
         }
         return $this->render('blog/create.html.twig', ['formArticle' => $form->createView()]);
 
