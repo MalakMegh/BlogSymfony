@@ -26,7 +26,7 @@ Nous avons consommé l'api de : CHAILLY-DEJESUSMARTINS (Api Externe).
 
 ### Lien de déploiement: 
 https://djouad-meghnous-blogg.herokuapp.com/
-Nous avons essayer plusieurs fois avec une bdd mysql et une bdd postgreSQL  mais ça n'a pas marché.
+pour faire déployer on a essayé plusieurs fois avec une bdd mysql et une bdd postgreSQL, mais ça n'a pas marché, on est encore entrain d'essayer...
 
 ### Lien vers la base de donnée: 
 https://drive.google.com/drive/folders/1POr2mv47CLtlorUin6oxSZN6jkreNIHF?usp=sharing
