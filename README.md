@@ -1,5 +1,5 @@
 # README
-Le blog à été créé par Meghnous Malak et Djouad Asma. 
+Le blog à été réalisé par Meghnous Malak et Djouad Asma. 
 
 ### Accès administrateur :
 login : meghnousmalak@gmail.com
@@ -16,7 +16,7 @@ Nous avons utilisé les Bundles suivants :
    Pour générer automatiquement les slugs en utilisant la caractéristique ###Slugable.
    Pour la mise à jour des dates lors de la création et la modification de l'article.
    #### le SecurityBundle de Symfony :
-   pour la gestion de d'authentification et d'autorisation  ainsi que pour la protection des routes CRUD doivent être protégées (Role-Admin).
+   pour la gestion de d'authentification et d'autorisation  ainsi que pour la protection des routes CRUD (Role-Admin).
    #### le fixtureBundle de Symfony :
    pour charger un «faux» ensemble de données dans une base de données.
    
