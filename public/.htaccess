@@ -1,9 +1,5 @@
 DirectoryIndex index.php
-Options +FollowSymlinks
 
-<IfModule mod_negotiation.c>
-    Options -MultiViews
-</IfModule>
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
