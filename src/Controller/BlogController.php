@@ -20,7 +20,7 @@ class BlogController extends AbstractController
     {
         $repo = $this->getDoctrine()->getRepository(Article::class);
         $articles = $repo->findAll();
-        return $this->render('blog/index.html.twig', [
+        return $this->render('index.html.twig', [
             'articles' => $articles,
         ]);
     }
