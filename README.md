@@ -20,9 +20,5 @@ Nous avons utilisé les Bundles suivants :
    pour charger un «faux» ensemble de données dans une base de données.
    
 
-Nous avons publié notre api (exposant les 5 récents articles).
-Nous avons consommé l'api de : CHAILLY-DEJESUSMARTINS (Api Externe).
 
-### Lien de déploiement: 
-https://djouad-meghnous-blogg.herokuapp.com/
 
