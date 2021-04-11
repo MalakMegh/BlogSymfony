@@ -1,10 +1,6 @@
 # README
 Le blog à été réalisé par Meghnous Malak et Djouad Asma. 
 
-### Accès administrateur :
-login : meghnousmalak@gmail.com
-password : 11061994
-
 ### fonctionnalités :
 le blog affiche différents articles,permet à un adminstrateur de se connecter afin de pouvoir effectuer les opérations suivantes: supprimer, modifier ou ajouter d’autres articles.
 
